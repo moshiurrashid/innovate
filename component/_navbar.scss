@@ -1,0 +1,28 @@
+header {
+  background-color: $navbar_color;
+  position: absolute;
+  width: 100%;
+  nav {
+    .nav_wrapper {
+      padding: 18px 0;
+      ul {
+        gap: 42px;
+        li {
+          a {
+            font-family: "Open Sans", serif;
+            font-size: 18px;
+            font-weight: 600;
+            color: $text_color;
+            transition: 0.4s;
+            &:hover {
+              color: $button_color;
+            }
+          }
+        }
+      }
+      button {
+        @include primary_button();
+      }
+    }
+  }
+}
