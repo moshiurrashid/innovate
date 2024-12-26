@@ -28,6 +28,9 @@ header nav .nav_wrapper ul li a {
 header nav .nav_wrapper ul li a:hover {
   color: #1bbf00;
 }
+header nav .nav_wrapper ul li .current_page {
+  color: #1bbf00;
+}
 header nav .nav_wrapper button {
   background-color: #1bbf00;
   border: 2px solid #1bbf00;

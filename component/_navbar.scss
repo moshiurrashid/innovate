@@ -14,9 +14,13 @@ header {
             font-weight: 600;
             color: $text_color;
             transition: 0.4s;
+
             &:hover {
               color: $button_color;
             }
+          }
+          .current_page {
+            color: $button_color;
           }
         }
       }
