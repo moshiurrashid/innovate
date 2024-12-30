@@ -17,12 +17,11 @@
       }
     }
     .learn_more {
-      @include secondary_button();
+      @include primary_button();
       margin-left: 20px;
       transition: 0.4s;
       &:hover {
-        background: $button_color;
-        color: $text_color;
+        background: transparent;
       }
     }
     h1 {

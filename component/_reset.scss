@@ -2,6 +2,9 @@
   max-width: 1170px;
   margin: 0 auto;
 }
+body {
+  font-family: "Open Sans", serif;
+}
 a {
   text-decoration: none;
 }
@@ -22,15 +25,15 @@ $text_color: #eff4fa;
   padding: 14px 28px;
   text-transform: capitalize;
 }
-@mixin secondary_button() {
-  background-color: transparent;
-  border: 2px solid $button_color;
-  border-radius: 100px;
-  line-height: 200%;
-  font-size: 18px;
-  font-weight: 600;
-  font-family: "Open Sans", serif;
-  color: #1bbf00;
-  padding: 14px 28px;
-  text-transform: capitalize;
-}
+// @mixin secondary_button() {
+//   background-color: transparent;
+//   border: 2px solid $button_color;
+//   border-radius: 100px;
+//   line-height: 200%;
+//   font-size: 18px;
+//   font-weight: 600;
+//   font-family: "Open Sans", serif;
+//   color: #1bbf00;
+//   padding: 14px 28px;
+//   text-transform: capitalize;
+// }
