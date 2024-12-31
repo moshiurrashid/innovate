@@ -11,6 +11,16 @@ a {
   text-decoration: none;
 }
 
+::-moz-selection {
+  color: red;
+  background: yellow;
+}
+
+::selection {
+  color: red;
+  background: yellow;
+}
+
 header {
   background-color: rgba(22, 12, 109, 0.5);
   position: absolute;
@@ -233,4 +243,43 @@ header nav .nav_wrapper button {
   background-color: transparent;
   border: 2px solid #1bbf00;
   color: #1bbf00;
+}
+
+#whatwedo {
+  background-color: #f6f5ff;
+}
+#whatwedo .wrapper .row1 {
+  padding-top: 100px;
+}
+#whatwedo .wrapper .row1 div h2 {
+  font-weight: 700;
+  font-size: 48px;
+  color: #141135;
+  padding-bottom: 5px;
+}
+#whatwedo .wrapper .row1 div p {
+  padding-bottom: 30px;
+  font-family: "Paprika", serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #726e9e;
+}
+#whatwedo .wrapper .row1 div button {
+  background-color: #1bbf00;
+  border: 2px solid #1bbf00;
+  border-radius: 100px;
+  line-height: 200%;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Open Sans", serif;
+  color: #eff4fa;
+  padding: 14px 28px;
+  text-transform: capitalize;
+  transition: 0.4s;
+}
+#whatwedo .wrapper .row1 div button:hover {
+  color: #1bbf00;
+  background-color: transparent;
+  border: 2px solid #1bbf00;
 }/*# sourceMappingURL=style.css.map */

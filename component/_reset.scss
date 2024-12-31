@@ -2,6 +2,7 @@
   max-width: 1170px;
   margin: 0 auto;
 }
+
 body {
   font-family: "Open Sans", serif;
 }
@@ -37,3 +38,7 @@ $text_color: #eff4fa;
 //   padding: 14px 28px;
 //   text-transform: capitalize;
 // }
+::selection {
+  color: red;
+  background: yellow;
+}

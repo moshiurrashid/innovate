@@ -1,0 +1,33 @@
+#whatwedo {
+  background-color: #f6f5ff;
+  .wrapper {
+    .row1 {
+      padding-top: 100px;
+      div {
+        h2 {
+          font-weight: 700;
+          font-size: 48px;
+          color: #141135;
+          padding-bottom: 5px;
+        }
+        p {
+          padding-bottom: 30px;
+          font-family: "Paprika", serif;
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 30px;
+          color: #726e9e;
+        }
+        button {
+          @include primary_button();
+          transition: 0.4s;
+          &:hover {
+            color: $button_color;
+            background-color: transparent;
+            border: 2px solid $button_color;
+          }
+        }
+      }
+    }
+  }
+}
